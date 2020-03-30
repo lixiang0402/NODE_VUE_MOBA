@@ -1,7 +1,7 @@
 <template>
   <el-container style="height: 100vh; border: 1px solid #eee">
     <el-aside width="200px" style="background-color: #333744">
-      <el-menu router unique-opened :defualt-active="$route.path" background-color="#333744" text-color="#fff" active-text-color="#ffd04b" :collapse-transition='false'>
+      <el-menu router unique-opened background-color="#333744" text-color="#fff" active-text-color="#ffd04b" :collapse-transition='false'>
         <el-submenu index="1">
           <template slot="title"><i class="el-icon-tickets"></i>内容管理</template>
           <el-menu-item-group>
@@ -49,9 +49,7 @@
         <h1>王者荣耀后台</h1>
         <el-button @click="out" type="waring">退出</el-button>
       </el-header>
-
       <el-main>
-
         <router-view></router-view>
       </el-main>
     </el-container>
