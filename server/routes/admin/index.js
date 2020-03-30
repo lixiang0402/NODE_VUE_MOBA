@@ -35,7 +35,7 @@ module.exports = app => {
             queryOptions.populate = "parent"
         }
         console.log(req.Model.modelName)
-        const items = await req.Model.find().setOptions(queryOptions).limit(10)
+        const items = await req.Model.find().setOptions(queryOptions).limit(100)
         res.send(items)
     })
     // 获取详情页
