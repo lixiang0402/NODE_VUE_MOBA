@@ -1,5 +1,6 @@
 
 ## 一、
+1.!如何使用 分别进入admin,web,serve输入命令cnpm install
 1. 工具安装和环境搭建(nodejs,npm,mongodb)
 1. 初始化项目
 
